@@ -1,6 +1,7 @@
 #!bash
 
-SHKL_JAR_APP_HOME=/home/alexescamilla/NetBeansProjects/ReporteArticulos/target
-SHKL_JAVA_HOME=/home/alexescamilla/Development/java/zulu17-34-19/bin
+REPORT_HOME=$HOME/ReportesNetsuite
+REPORT_HOME_JAVA=$REPORT_HOME/java/zulu17.42.19-ca-jdk17.0.7-macosx_aarch64/bin
+REPORT_HOME_REPORTE_ARCHIVOS=$REPORT_HOME/ReporteArchivos
 
-$SHKL_JAVA_HOME/java -jar $SHKL_JAR_APP_HOME/ReporteArticulos-1.0.jar
+$REPORT_HOME_JAVA/java -jar $REPORT_HOME_REPORTE_ARCHIVOS/ReporteArticulos-1.0.jar
