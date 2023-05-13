@@ -62,7 +62,8 @@
 					<string>REPORT_NS=$HOME/ReportesNetsuite
 REPORT_NS_ARCHIVOS=$REPORT_NS/ReporteArchivos
 
-sh $REPORT_NS_ARCHIVOS/execute.sh</string>
+sh $REPORT_NS_ARCHIVOS/execute.sh
+# open -a calculator</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -172,12 +173,10 @@ sh $REPORT_NS_ARCHIVOS/execute.sh</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<integer>1</integer>
 				<key>location</key>
-				<string>309.000000:184.000000</string>
+				<string>350.500000:252.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -190,7 +189,7 @@ sh $REPORT_NS_ARCHIVOS/execute.sh</string>
 	<key>workflowMetaData</key>
 	<dict>
 		<key>workflowTypeIdentifier</key>
-		<string>com.apple.Automator.workflow</string>
+		<string>com.apple.Automator.application</string>
 	</dict>
 </dict>
 </plist>

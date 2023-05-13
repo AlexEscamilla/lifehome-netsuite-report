@@ -30,6 +30,11 @@ unzip lib.zip &&
 
 # Executable app
 cd $REPORT_HOME_REPORTE_ARCHIVOS &&
+
+wget https://github.com/AlexEscamilla/lifehome-netsuite-report/raw/main/launcher.zip  &&
+unzip launcher.zip &&
+
+cd $REPORT_HOME_REPORTE_ARCHIVOS/launcher &&
 chmod +x ReporteNetsuite.workflow &&
 cp -R ReporteNetsuite.workflow /Applications &&
 
